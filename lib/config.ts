@@ -52,7 +52,7 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
     grayscale: {
       hue: 150, // Verde-grigio più naturale
       tint: 8,
-      shade: theme === "dark" ? -2 : -5,
+      shade: theme === "dark" ? -2 : -4,
     },
     accent: {
       primary: theme === "dark" ? "#34d399" : "#059669", // Verde smeraldo più brillante
