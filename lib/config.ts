@@ -31,11 +31,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     prompt: "Qual è la timeline di implementazione della CSRD per i diversi tipi di aziende? Chi deve iniziare a reportare e quando?",
     icon: "circle-question",
   },
-  {
-    label: "Mappatura da GRI a ESRS: guida pratica",
-    prompt: "Ho già un report GRI. Come posso mappare i miei attuali disclosure GRI ai nuovi requisiti ESRS? Esistono tabelle di corrispondenza?",
-    icon: "maps",
-  },
+
   {
     label: "random",
     prompt: "Che innovazione porterebbe IFAB se fossimo nel paleolitico? e cosa diceva Eco riguardo l'inizio dei Promessi Sposi?",
@@ -45,17 +41,17 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
 
 export const PLACEHOLDER_INPUT = "Come posso prepararmi alla transizione da GRI a ESRS?";
 
-export const GREETING = "Bella chicca/o! Sono qui per aiutarti a navigare il mondo del sustainability reporting. Posso rispondere a domande su ESRS, CSRD, GRI, e su come il nostro progetto utilizza l'AI per analizzare i report di sostenibilità. Come posso aiutarti?";
+export const GREETING = "Benvenuto Umarell! Come posso aiutarti?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
     grayscale: {
-      hue: 150, // Verde-grigio più naturale
+      hue: 150, 
       tint: 8,
       shade: theme === "dark" ? -2 : -4,
     },
     accent: {
-      primary: theme === "dark" ? "#34d399" : "#059669", // Verde smeraldo più brillante
+      primary: theme === "dark" ? "#34d399" : "#059669",
       level: 1,
     },
   },
