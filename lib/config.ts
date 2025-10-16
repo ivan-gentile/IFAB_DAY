@@ -7,8 +7,8 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "Quali sono le principali differenze tra GRI ed ESRS?",
-    prompt: "Spiegami le differenze chiave tra gli standard GRI e i nuovi standard ESRS per il reporting di sostenibilità, con focus sui cambiamenti principali per le aziende europee",
+    label: "Vuoi provare a chiedere informazioni sul report di sostenibilità di RyanAir 2023?",
+    prompt: "Vorrei sapere quali sono i principali indicatori di performance ambientale e sociale di RyanAir per il 2023, come energia, emissioni di CO2, ecc.",
     icon: "book-open",
   },
   {
@@ -39,7 +39,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Come posso prepararmi alla transizione da GRI a ESRS?";
+export const PLACEHOLDER_INPUT = "Chiedi qui info su Progetto, CSRD E GRI o specifiche su report sostenibilità RyanAir";
 
 export const GREETING = "Benvenuto Umarell! Come posso aiutarti?";
 
